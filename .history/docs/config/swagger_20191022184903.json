@@ -1,0 +1,298 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "defaultTitle",
+    "description" : "defaultDescription",
+    "version" : "0.1"
+  },
+  "servers" : [ {
+    "url" : "http://localhost:3000"
+  } ],
+  "paths" : {
+    "/people/1" : {
+      "put" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/body"
+              },
+              "examples" : {
+                "0" : {
+                  "value" : "  {\n            \"id\": 1,\n            \"firstName\": \"Sarah\",\n            \"lastName\": \"Smalls\",\n            \"birthday\": \"2020-02-13T08:00:00.000Z\",\n            \"team\": 1,\n            \"likes\": \"dogs\"\n        }"
+                }
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    },
+    "/teams" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    },
+    "/teams/1" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "delete" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    },
+    "/teams/3" : {
+      "put" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/body_1"
+              },
+              "examples" : {
+                "0" : {
+                  "value" : " {\n        \"name\": \"Red Heron\",\n        \"color\": \"blue\"\n    }"
+                }
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    },
+    "/people" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "post" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/body_2"
+              },
+              "examples" : {
+                "0" : {
+                  "value" : " {\n            \"id\": 6,\n            \"firstName\": \"Sarah\",\n            \"lastName\": \"Smalls\",\n            \"birthday\": \"2020-02-13T08:00:00.000Z\",\n            \"team\": 1,\n            \"likes\": \"cats\"\n        }"
+                }
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    },
+    "/" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "text/html; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "body" : {
+        "type" : "object",
+        "properties" : {
+          "birthday" : {
+            "type" : "string"
+          },
+          "firstName" : {
+            "type" : "string"
+          },
+          "lastName" : {
+            "type" : "string"
+          },
+          "id" : {
+            "type" : "integer"
+          },
+          "team" : {
+            "type" : "integer"
+          },
+          "likes" : {
+            "type" : "string"
+          }
+        }
+      },
+      "body_1" : {
+        "type" : "object",
+        "properties" : {
+          "color" : {
+            "type" : "string"
+          },
+          "name" : {
+            "type" : "string"
+          }
+        }
+      },
+      "body_2" : {
+        "type" : "object",
+        "properties" : {
+          "birthday" : {
+            "type" : "string"
+          },
+          "firstName" : {
+            "type" : "string"
+          },
+          "lastName" : {
+            "type" : "string"
+          },
+          "id" : {
+            "type" : "integer"
+          },
+          "team" : {
+            "type" : "integer"
+          },
+          "likes" : {
+            "type" : "string"
+          }
+        }
+      }
+    }
+  }
+}
