@@ -1,6 +1,7 @@
 'use strict';
 
+// Load in environment variables
 require('dotenv').config();
 
-// starting server on the PORT provided in environment variable 
-require('./lib/server.js').start(process.env.PORT);
+// Start the server
+require('./lib/server.js').start(3000);
