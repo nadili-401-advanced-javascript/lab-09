@@ -1,6 +1,6 @@
 # LAB - 09
 
-## Express
+## API-Server
 
 ### Author: Nadya Ilinskaya/Seattle-js-401n14
 
@@ -9,17 +9,13 @@
 * [travis](https://travis-ci.com/nadili-401-advanced-javascript/lab-09)
 * [heroku](https://nadili-lab-09.herokuapp.com/)
 
-
-### Modules
-#### `server.js`
-#### `router.js`
-#### `model-finder.js`
-
 ### Setup
-
 #### Running the app
-* nodemon index.js
+* node index.js
 * http://localhost:3000
+
+#### Running db
+mongod --dbpath= /PATH to mongodb/
 
   
 #### Tests
@@ -28,4 +24,4 @@
 
 
 #### UML
-![ UML for the 'callbacks' part of the application ](/assets/lab-09-uml.jpg)
+![ UML ](/assets/lab-09-uml.jpg)
